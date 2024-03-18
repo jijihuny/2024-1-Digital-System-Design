@@ -1,0 +1,6 @@
+{
+    "markdown-pdf.displayHeaderFooter": false,
+    "markdown.copyFiles.destination": {
+            "*": "${documentDirName}/images/${fileName}"
+        }
+    }

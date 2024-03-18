@@ -85,7 +85,9 @@
 !*.bmm
 !*.xmp
 #######
-#markdown
+#기타
 #######
 !*.md
 !*.pdf
+!*.json
+!zipper.bat
