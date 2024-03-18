@@ -2,8 +2,7 @@
 
 ## 실습과제 1: 1-Bit Full Adder
 
-![alt text](image.png)
-
+![alt text](images/image.png)
 ### VHDL 코드
 ```v
 module full_adder(
@@ -55,11 +54,11 @@ endmodule
 ```
 
 ### Schematic
-![alt text](image-6.png)
+![alt text](images/image-1.png)
 
 ### 결과값 및 파형
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 ### 분석 및 고찰
 
@@ -72,7 +71,7 @@ endmodule
 
 ## 실습과제 2: 8-to-1 MUX
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 ### VHDL 코드
 
@@ -137,11 +136,11 @@ endmodule
 
 ### Schematic
 
-![alt text](image-5.png)
+![alt text](images/image-4.png)
 
 ### 결과값 및 파형
 
-![alt text](image-4.png)
+![alt text](images/image-5.png)
 
 ### 분석 및 고찰
 
