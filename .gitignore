@@ -15,10 +15,10 @@
 #Source files:
 #########
 #Do NOT ignore VHDL, Verilog, block diagrams or EDIF files.
-!*.vhd
-!*.v
-!*.bd
-!*.edif
+# !*.vhd
+!**/*.srcs/**/*.v
+# !*.bd
+# !*.edif
 #########
 #IP files
 #########
@@ -88,6 +88,5 @@
 #기타
 #######
 !*.md
-!*.pdf
 !*.json
 !zipper.bat
