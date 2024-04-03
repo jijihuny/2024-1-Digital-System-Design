@@ -3,4 +3,4 @@
     "markdown.copyFiles.destination": {
             "*": "${documentDirName}/images/${fileName}"
         }
-    }
+}
