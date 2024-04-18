@@ -6,11 +6,11 @@ module mux_4_to_1_if_else(
     output reg out;
 
     always @(*) begin
-        if(s1) begin
-            if(s0) out = i3; else out = i2;
+        if(s[1]) begin
+            if(s[0]) out = i[3]; else out = i[2];
         end
         else begin
-            if(s0) out = i1; else out = i0;
+            if(s[0]) out = i[1]; else out = i[0];
         end
     end
 endmodule

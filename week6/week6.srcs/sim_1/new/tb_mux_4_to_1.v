@@ -26,7 +26,7 @@ module tb_mux_4_to_1;
     wire out;
     
     mux_4_to_1 tb(.i(i), .s(s), .out(out));
-    mux_4_to_1_if_else tb2(.i(i), .s(s), .out(out));
+//    mux_4_to_1_if_else tb2(.i(i), .s(s), .out(out));
     
     initial begin
     i = 4'b0;
